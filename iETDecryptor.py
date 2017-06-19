@@ -16,7 +16,7 @@ encryptedText = sys.argv[1]
 print sys.argv[1]
 
 index1 = ord( encryptedText[0] ) - 97 + 1
-print index1
+
 
 num = ord( encryptedText[index1] ) - 97
 if num > 25:
